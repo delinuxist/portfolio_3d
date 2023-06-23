@@ -16,7 +16,7 @@ const Navbar = () => {
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
       <div className='flex items-center justify-between w-full mx-auto max-w-7xl'>
-        <Link href={"/"} className='flex items-center gap-2'
+        <Link href={"/#home"} className='flex items-center gap-2'
           onClick={() => {
             window.scroll(0, 0)
           }}
