@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { About, Experience, Hero, Navbar, Tech } from '../components'
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works } from '../components'
 
 export default function Home() {
   return (
@@ -9,8 +9,15 @@ export default function Home() {
         <Hero />
       </div>
       <About pageId='about' />
-      <Experience pageId='work' />
+      <Experience pageId='experience' />
       <Tech pageId='tech' />
+      <Works pageId='work' />
+      <Feedbacks pageId='feedback' />
+      <div className='relative z-0'>
+        <Contact pageId='contact' />
+        <StarsCanvas />
+      </div>
+
     </main>
   )
 }
